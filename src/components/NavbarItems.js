@@ -13,15 +13,15 @@ const NavbarItems = () => (
   >
     {/* Home */}
     <Menu.Item key="1">
-      <Link to="/">Home</Link>
+      <Link to="/mt-cv/">Home</Link>
     </Menu.Item>
     {/* About */}
     <Menu.Item key="2">
-      <Link to="/about">About</Link>
+      <Link to="/mt-cv/about">About</Link>
     </Menu.Item>
     {/* Projects */}
     <Menu.Item key="3">
-      <Link to="/projects">My Projects</Link>
+      <Link to="/mt-cv/projects">My Projects</Link>
     </Menu.Item>
   </Menu>
 );
