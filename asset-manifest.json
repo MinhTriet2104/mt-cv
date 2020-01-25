@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mt-cv/static/css/main.deec650d.chunk.css",
+    "main.js": "/mt-cv/static/js/main.3b9d3dfd.chunk.js",
+    "main.js.map": "/mt-cv/static/js/main.3b9d3dfd.chunk.js.map",
+    "runtime-main.js": "/mt-cv/static/js/runtime-main.8a59aedc.js",
+    "runtime-main.js.map": "/mt-cv/static/js/runtime-main.8a59aedc.js.map",
+    "static/css/2.ff8bd605.chunk.css": "/mt-cv/static/css/2.ff8bd605.chunk.css",
+    "static/js/2.858d0244.chunk.js": "/mt-cv/static/js/2.858d0244.chunk.js",
+    "static/js/2.858d0244.chunk.js.map": "/mt-cv/static/js/2.858d0244.chunk.js.map",
+    "index.html": "/mt-cv/index.html",
+    "precache-manifest.a545bf42955147b2e6e581babd607dd6.js": "/mt-cv/precache-manifest.a545bf42955147b2e6e581babd607dd6.js",
+    "service-worker.js": "/mt-cv/service-worker.js",
+    "static/css/2.ff8bd605.chunk.css.map": "/mt-cv/static/css/2.ff8bd605.chunk.css.map",
+    "static/css/main.deec650d.chunk.css.map": "/mt-cv/static/css/main.deec650d.chunk.css.map",
+    "static/js/2.858d0244.chunk.js.LICENSE": "/mt-cv/static/js/2.858d0244.chunk.js.LICENSE",
+    "static/media/IMG_9881.JPG": "/mt-cv/static/media/IMG_9881.aaf74bc9.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a59aedc.js",
+    "static/css/2.ff8bd605.chunk.css",
+    "static/js/2.858d0244.chunk.js",
+    "static/css/main.deec650d.chunk.css",
+    "static/js/main.3b9d3dfd.chunk.js"
+  ]
+}
