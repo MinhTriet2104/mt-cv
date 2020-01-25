@@ -1,0 +1,12 @@
+.header,
+.footer {
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.ant-layout,
+.ant-layout * {
+  background: transparent;
+  color: #677790;
+  border-radius: 8px;
+}

@@ -1,0 +1,42 @@
+.NavbarItems {
+  display: flex;
+  justify-content: flex-end;
+  background: #e1effc;
+}
+
+.ant-menu {
+  padding: 1rem 0 !important;
+  border: none !important;
+}
+
+.ant-menu-item {
+  margin: 0 0.5rem !important;
+  padding: 0.1rem 2rem !important;
+  box-shadow: -5px -5px 15px #faffff, 5px 5px 15px #adbfd5;
+  background: #dfeffc;
+  border-radius: 10px;
+  border: none !important;
+}
+
+.ant-menu-item:hover {
+  border: none !important;
+}
+
+.ant-menu-item a {
+  background: transparent;
+  font-weight: 600;
+}
+
+.ant-menu-item.ant-menu-item-selected,
+.ant-menu-item.ant-menu-item-active {
+  background: #7aa3ff !important;
+  border: none !important;
+  box-shadow: inset 10px 10px 30px 0 #577eff, -5px -5px 15px #faffff,
+    5px 5px 15px #adbfd5;
+}
+
+.ant-menu-item-selected > a,
+.ant-menu-item-active a,
+a:hover {
+  color: #fff !important;
+}
