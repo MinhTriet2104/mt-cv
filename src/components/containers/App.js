@@ -29,9 +29,9 @@ const App = () => (
       </Header>
       <Content style={ContentStyle} className="content">
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/mt-cv/" component={Home} />
+          <Route exact path="/mt-cv/about" component={About} />
+          <Route exact path="/mt-cv/projects" component={Projects} />
         </Switch>
       </Content>
       <Footer
