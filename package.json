@@ -1,4 +1,5 @@
 {
+  "homepage": "http://minhtriet2104.github.io/mt-cv",
   "name": "mt-cv",
   "version": "0.1.0",
   "private": true,
@@ -32,7 +33,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://minhtriet2104.github.io",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
