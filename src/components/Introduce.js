@@ -14,7 +14,7 @@ const GreetingStyle = {
 };
 
 const highlight = {
-  color: "#008dfd",
+  color: "#577eff",
   fontWeight: "bold",
   fontFamily: fontFamily
 };
@@ -23,7 +23,7 @@ export default () => (
   <div>
     <h1 style={GreetingStyle}>
       Hi, I'm <span style={highlight}>Minh Triết</span>{" "}
-      <Icon type="message" theme="twoTone" twoToneColor="#88bef5" />
+      <Icon type="message" theme="twoTone" twoToneColor="#7aa3ff" />
     </h1>
     <h2 style={{ margin: 0 }}>
       I'm a <span style={highlight}>WEB DESIGN & DEVELOPMENT</span>

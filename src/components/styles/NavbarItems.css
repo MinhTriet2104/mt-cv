@@ -14,7 +14,6 @@
   padding: 0.1rem 2rem !important;
   box-shadow: -5px -5px 15px #faffff, 5px 5px 15px #adbfd5;
   background: #dfeffc;
-  border-radius: 10px;
   border: none !important;
 }
 
@@ -29,14 +28,13 @@
 
 .ant-menu-item.ant-menu-item-selected,
 .ant-menu-item.ant-menu-item-active {
-  background: #7aa3ff !important;
+  background: transparent !important;
   border: none !important;
-  box-shadow: inset 10px 10px 30px 0 #577eff, -5px -5px 15px #faffff,
-    5px 5px 15px #adbfd5;
+  box-shadow: inset 5px 5px 10px #adbfd5;
 }
 
 .ant-menu-item-selected > a,
 .ant-menu-item-active a,
 a:hover {
-  color: #fff !important;
+  color: #677790 !important;
 }
