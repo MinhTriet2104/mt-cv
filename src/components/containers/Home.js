@@ -5,7 +5,7 @@ import Avatar from "../Avatar";
 import Introduce from "../Introduce";
 
 const Home = () => (
-  <div>
+  <div style={{ animation: "fadeIn 0.5s ease-in" }}>
     <Row>
       <Col span={8}>
         <Avatar />

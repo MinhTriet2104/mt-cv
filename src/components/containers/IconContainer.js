@@ -12,7 +12,7 @@ export default ({ children, first }) => (
       justifyContent: "center",
       alignItems: "center",
       boxShadow: "-5px -5px 15px #faffff, 5px 5px 15px #adbfd5",
-      marginTop: "2rem",
+      marginTop: "1rem",
       marginLeft: first ? 0 : "1rem"
     }}
   >

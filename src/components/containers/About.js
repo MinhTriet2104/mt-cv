@@ -1,5 +1,8 @@
 import React from "react";
 import { Bar } from "react-chartjs-2";
+import Texty from "rc-texty";
+
+import "rc-texty/assets/index.css";
 
 const About = () => {
   return (
@@ -12,7 +15,9 @@ const About = () => {
           borderRadius: 0
         }}
       >
-        Programing Skills
+        <Texty type="flash" duration="150">
+          Programing Skills
+        </Texty>
       </h1>
       <Bar
         height="60"

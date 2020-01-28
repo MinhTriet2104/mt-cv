@@ -6,6 +6,8 @@
   "dependencies": {
     "antd": "^3.26.7",
     "chart.js": "^2.9.3",
+    "rc-texty": "^0.2.0",
+    "rc-tween-one": "^2.6.8",
     "react": "^16.12.0",
     "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.12.0",
