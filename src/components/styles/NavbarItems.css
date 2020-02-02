@@ -4,6 +4,10 @@
   background: #e1effc;
 }
 
+.ant-layout-header {
+  padding: 0 100px !important;
+}
+
 .ant-menu {
   padding: 1rem 0 !important;
   border: none !important;

@@ -11,15 +11,7 @@ import Logo from "../Logo";
 import "antd/dist/antd.css";
 import "../styles/App.css";
 
-const ContentStyle = {
-  margin: "5rem 50px 0",
-  height: "30rem",
-  boxShadow: "-5px -5px 15px #faffff, 5px 5px 15px #adbfd5",
-  background: "transparent",
-  borderRadius: "5px"
-};
-
-const { Header, Content, Footer } = Layout;
+const { Header, Footer } = Layout;
 const App = () => (
   <Router>
     <Layout>
@@ -27,19 +19,18 @@ const App = () => (
         <Logo />
         <NavbarItems />
       </Header>
-      <Content style={ContentStyle} className="content">
-        <Switch>
-          <Route exact path="/mt-cv/" component={Home} />
-          <Route exact path="/mt-cv/about" component={About} />
-          <Route exact path="/mt-cv/projects" component={Projects} />
-        </Switch>
-      </Content>
+      <Switch>
+        <Route exact path="/mt-cv/" component={Home} />
+        <Route exact path="/mt-cv/about" component={About} />
+        <Route exact path="/mt-cv/projects" component={Projects} />
+      </Switch>
+
       <Footer
         style={{
           textAlign: "center",
           background: "transparent",
           fontSize: "1.2rem",
-          marginTop: "3rem"
+          padding: "2rem !important"
         }}
         className="footer"
       >

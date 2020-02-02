@@ -12,8 +12,7 @@ const rollInAnimation = keyframes`${rollIn}`;
 const flipInXAnimation = keyframes`${flipInX}`;
 
 const GreetingStyle = {
-  fontSize: "4rem",
-  marginTop: "4rem",
+  fontSize: "4.5rem",
   fontWeight: "bold",
   fontFamily: fontFamily,
   marginBottom: 0,
@@ -41,7 +40,7 @@ const SocialContact = styled.div`
 `;
 
 export default () => (
-  <div>
+  <div style={{ padding: "4.2rem 0" }}>
     <Greeting style={GreetingStyle}>
       Hi, I'm <span style={highlight}>Minh Triết</span>{" "}
       <Icon type="message" theme="twoTone" twoToneColor="#7aa3ff" />

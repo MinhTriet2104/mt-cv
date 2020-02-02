@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Concert+One&display=swap");
-@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
 
 * {
@@ -23,14 +20,5 @@ body {
   to {
     opacity: 1;
     transform: scale(1);
-  }
-}
-
-@keyframes appear {
-  form {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }

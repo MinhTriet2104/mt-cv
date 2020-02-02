@@ -1,12 +1,24 @@
 import React from "react";
+import { Layout } from "antd";
 import { Bar } from "react-chartjs-2";
 import Texty from "rc-texty";
 
 import "rc-texty/assets/index.css";
 
+const ContentStyle = {
+  margin: "5rem 100px 0",
+  height: "30rem",
+  boxShadow: "-5px -5px 15px #faffff, 5px 5px 15px #adbfd5",
+  background: "transparent",
+  borderRadius: "5px",
+  padding: "2rem"
+};
+
+const { Content } = Layout;
+
 const About = () => {
   return (
-    <div style={{ padding: "1rem 1.5rem" }}>
+    <Content style={ContentStyle}>
       <h1
         style={{
           fontSize: "2rem",
@@ -21,7 +33,7 @@ const About = () => {
       </h1>
       <Bar
         height="60"
-        width="200"
+        width="190"
         data={{
           labels: ["HTML", "CSS", "JavaScript", "PHP", "MongoDB", "MySQL"],
           datasets: [
@@ -71,7 +83,7 @@ const About = () => {
           }
         }}
       />
-    </div>
+    </Content>
   );
 };
 
