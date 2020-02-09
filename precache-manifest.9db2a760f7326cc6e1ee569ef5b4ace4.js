@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b033ed56adf59c18fc989f8aa8b26f32",
+    "revision": "961335ec7867dd560750461e0d1379b7",
     "url": "/mt-cv/index.html"
   },
   {
-    "revision": "e565ba3555c75e1f38a7",
+    "revision": "b8fa714b05c1d14b46fe",
     "url": "/mt-cv/static/css/2.38900c64.chunk.css"
   },
   {
-    "revision": "f61572d87374a9e9fcfb",
-    "url": "/mt-cv/static/css/main.cdb38390.chunk.css"
+    "revision": "26cc83e55fa5957e6315",
+    "url": "/mt-cv/static/css/main.18efe3ce.chunk.css"
   },
   {
-    "revision": "e565ba3555c75e1f38a7",
-    "url": "/mt-cv/static/js/2.9b026251.chunk.js"
+    "revision": "b8fa714b05c1d14b46fe",
+    "url": "/mt-cv/static/js/2.73ce25ba.chunk.js"
   },
   {
     "revision": "7d127dd731bd76a70844d4cf50e01fd0",
-    "url": "/mt-cv/static/js/2.9b026251.chunk.js.LICENSE"
+    "url": "/mt-cv/static/js/2.73ce25ba.chunk.js.LICENSE"
   },
   {
-    "revision": "f61572d87374a9e9fcfb",
-    "url": "/mt-cv/static/js/main.f9b91d43.chunk.js"
+    "revision": "26cc83e55fa5957e6315",
+    "url": "/mt-cv/static/js/main.7bfd1609.chunk.js"
   },
   {
     "revision": "b6edba690af0d54708d5",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aaf74bc9b2fe5749f757e0e888459faa",
     "url": "/mt-cv/static/media/IMG_9881.aaf74bc9.JPG"
+  },
+  {
+    "revision": "51a6cc31a6dc4457c0b51ff099d39876",
+    "url": "/mt-cv/static/media/LaravelNews.51a6cc31.png"
   },
   {
     "revision": "d3080f932c290538fcd2bac16652d492",
