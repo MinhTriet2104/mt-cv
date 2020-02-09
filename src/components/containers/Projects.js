@@ -11,6 +11,7 @@ import SnakeGameImg from "../../img/SnakeGame.PNG";
 import TodoListImg from "../../img/TodoList.PNG";
 import MyCVImg from "../../img/MyCV.PNG";
 import PhpNewsImg from "../../img/PhpNewspaper.png";
+import LaravelNewsImg from '../../img/LaravelNews.png';
 
 const Container = styled.div`
   margin: 3rem 100px 0;
@@ -24,7 +25,7 @@ const Category = styled.h2`
   margin-bottom: 0.7rem;
   padding: 0 0.3rem;
   border-left: 5px solid #577eff;
-  border-bottom: 5px solid #577eff;
+  border-bottom: 2px solid #577eff;
   border-radius: 0;
   display: inline-block;
 `;
@@ -91,7 +92,7 @@ const Projects = () => (
       </Col>
     </Row>
     <Category style={{ marginTop: "3.5rem" }}>PHP & Laravel</Category>
-    <Row gutter={{ lg: 48, md: 32 }}>
+    <Row gutter={{ lg: 64, md: 48 }}>
       <Col className="gutter-row" xl={10} md={10} sm={24}>
         <ProjectShowcase
           projectSrc="http://callie.epizy.com/"
@@ -101,8 +102,8 @@ const Projects = () => (
       </Col>
       <Col className="gutter-row" xl={10} md={10} sm={24}>
         <ProjectShowcase
-          projectSrc="https://minhtriet2104.github.io/mt-cv/"
-          imgSrc={PhpNewsImg}
+          projectSrc="https://callie-laravel.herokuapp.com/"
+          imgSrc={LaravelNewsImg}
           title="Online News with Laravel"
         />
       </Col>

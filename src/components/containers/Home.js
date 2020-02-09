@@ -7,7 +7,7 @@ import Introduce from "../Introduce";
 const ContentStyle = {
   margin: "5rem 100px 0",
   height: "30rem",
-  boxShadow: "-5px -5px 15px #faffff, 5px 5px 15px #adbfd5",
+  boxShadow: "-2px -2px 6px #faffff, 2px 2px 6px #adbfd5",
   background: "transparent",
   borderRadius: "5px",
   animation: "fadeIn 0.5s ease-in"

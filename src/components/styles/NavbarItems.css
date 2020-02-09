@@ -16,7 +16,7 @@
 .ant-menu-item {
   margin: 0 0.7rem !important;
   padding: 0.1rem 2rem !important;
-  box-shadow: -5px -5px 15px #faffff, 5px 5px 15px #adbfd5;
+  box-shadow: -2px -2px 6px #faffff, 2px 2px 6px #adbfd5;
   background: #dfeffc;
   border: none !important;
   font-size: 1rem;
@@ -26,8 +26,7 @@
 .ant-menu-item.ant-menu-item-selected,
 .ant-menu-item.ant-menu-item-active {
   border: none !important;
-  box-shadow: inset 3px 3px 11px #adbfd5;
-  font-size: 0.8rem;
+  box-shadow: inset -2px -2px 6px #faffff, inset 2px 2px 6px #adbfd5;
 }
 
 .ant-menu-item a {

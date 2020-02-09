@@ -12,6 +12,10 @@ body {
   background-attachment: fixed;
 }
 
+.ant-card-bordered {
+  border: none !important;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

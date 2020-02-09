@@ -1,4 +1,5 @@
 .ant-card-hoverable:hover {
   transform: scale(1.2);
-  transition: 300ms ease-in-out;
+  box-shadow: "-4px -4px 9px #faffff, 4px 4px 9px #adbfd5";
+  transition: all 400ms ease-in-out;
 }

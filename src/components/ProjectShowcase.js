@@ -5,8 +5,9 @@ import styled from "styled-components";
 import "./styles/Card.css";
 
 const CardStyle = {
-  boxShadow: "-5px -5px 15px #faffff, 5px 5px 15px #adbfd5",
-  textAlign: "center"
+  boxShadow: "-2px -2px 6px #faffff, 2px 2px 6px #adbfd5",
+  textAlign: "center",
+  border: "none !important"
 };
 
 const Title = styled.a`
