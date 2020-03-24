@@ -11,7 +11,8 @@ import SnakeGameImg from "../../img/SnakeGame.PNG";
 import TodoListImg from "../../img/TodoList.PNG";
 import MyCVImg from "../../img/MyCV.PNG";
 import PhpNewsImg from "../../img/PhpNewspaper.png";
-import LaravelNewsImg from '../../img/LaravelNews.png';
+import LaravelNewsImg from "../../img/LaravelNews.png";
+import TodoListReduxImg from "../../img/TodoListRedux.png";
 
 const Container = styled.div`
   margin: 3rem 100px 0;
@@ -83,7 +84,14 @@ const Projects = () => (
           title="Todo List"
         />
       </Col>
-      <Col className="gutter-row" xl={10} md={10} sm={24}>
+      <Col className="gutter-row" xl={8} md={8} sm={24}>
+        <ProjectShowcase
+          projectSrc=""
+          imgSrc={TodoListReduxImg}
+          title="Todo List using Redux"
+        />
+      </Col>
+      <Col className="gutter-row" xl={8} md={8} sm={24}>
         <ProjectShowcase
           projectSrc="https://minhtriet2104.github.io/mt-cv/"
           imgSrc={MyCVImg}
@@ -93,7 +101,7 @@ const Projects = () => (
     </Row>
     <Category style={{ marginTop: "3.5rem" }}>PHP & Laravel</Category>
     <Row gutter={{ lg: 64, md: 48 }}>
-      <Col className="gutter-row" xl={10} md={10} sm={24}>
+      <Col className="gutter-row" xl={8} md={8} sm={24}>
         <ProjectShowcase
           projectSrc="http://callie.epizy.com/"
           imgSrc={PhpNewsImg}
