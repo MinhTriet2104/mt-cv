@@ -8,7 +8,7 @@ import "rc-texty/assets/index.css";
 const ContentStyle = {
   margin: "5rem 100px 0",
   height: "30rem",
-  boxShadow: "-2px -2px 6px #faffff, 2px 2px 6px #adbfd5",
+  boxShadow: "inset -2px -2px 6px #faffff, inset 2px 2px 6px #adbfd5",
   background: "transparent",
   borderRadius: "5px",
   padding: "2rem"
