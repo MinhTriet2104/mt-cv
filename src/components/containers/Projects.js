@@ -86,7 +86,7 @@ const Projects = () => (
       </Col>
       <Col className="gutter-row" xl={8} md={8} sm={24}>
         <ProjectShowcase
-          projectSrc=""
+          projectSrc="https://quan-ly-cong-viec-2020.herokuapp.com/"
           imgSrc={TodoListReduxImg}
           title="Todo List using Redux"
         />
