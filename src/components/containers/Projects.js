@@ -31,6 +31,11 @@ const Category = styled.h2`
   display: inline-block;
 `;
 
+const RowContainer = styled.div`
+  box-shadow: inset -2px -2px 6px #faffff, inset 2px 2px 6px #adbfd5;
+  padding: 2em;
+`;
+
 const Projects = () => (
   <Container>
     <h1
@@ -44,78 +49,84 @@ const Projects = () => (
     >
       <Icon type="code" theme="twoTone" twoToneColor="#577eff" /> My Projects
     </h1>
-    <Category>JavaScript Games</Category>
-    <Row gutter={{ lg: 48, md: 32 }}>
-      <Col className="gutter-row" xl={6} md={8} sm={24}>
-        <ProjectShowcase
-          projectSrc="https://flappy-bird-2020.web.app/"
-          imgSrc={FlappyBirdImg}
-          title="Game Flappy Bird"
-        />
-      </Col>
-      <Col className="gutter-row" xl={6} md={8} sm={24}>
-        <ProjectShowcase
-          projectSrc="https://game2048-2020.web.app/"
-          imgSrc={Game2048Img}
-          title="Game 2048"
-        />
-      </Col>
-      <Col className="gutter-row" xl={6} md={8} sm={24}>
-        <ProjectShowcase
-          projectSrc="https://typingpracticegame.web.app/"
-          imgSrc={TypingGameImg}
-          title="Typing Game"
-        />
-      </Col>
-      <Col className="gutter-row" xl={6} md={8} sm={24}>
-        <ProjectShowcase
-          projectSrc="https://codepen.io/minhtriet2104/project/full/AVbLBP"
-          imgSrc={SnakeGameImg}
-          title="Snake Game"
-        />
-      </Col>
-    </Row>
-    <Category style={{ marginTop: "3.5rem" }}>React App</Category>
-    <Row gutter={{ lg: 48, md: 32 }}>
-      <Col className="gutter-row" xl={8} md={8} sm={24}>
-        <ProjectShowcase
-          projectSrc="https://first-firebase-react-deploy.firebaseapp.com/"
-          imgSrc={TodoListImg}
-          title="Todo List"
-        />
-      </Col>
-      <Col className="gutter-row" xl={8} md={8} sm={24}>
-        <ProjectShowcase
-          projectSrc="https://quan-ly-cong-viec-2020.herokuapp.com/"
-          imgSrc={TodoListReduxImg}
-          title="Todo List using Redux"
-        />
-      </Col>
-      <Col className="gutter-row" xl={8} md={8} sm={24}>
-        <ProjectShowcase
-          projectSrc="https://minhtriet2104.github.io/mt-cv/"
-          imgSrc={MyCVImg}
-          title="My CV"
-        />
-      </Col>
-    </Row>
-    <Category style={{ marginTop: "3.5rem" }}>PHP & Laravel</Category>
-    <Row gutter={{ lg: 64, md: 48 }}>
-      <Col className="gutter-row" xl={8} md={8} sm={24}>
-        <ProjectShowcase
-          projectSrc="http://callie.epizy.com/"
-          imgSrc={PhpNewsImg}
-          title="Online News with PHP"
-        />
-      </Col>
-      <Col className="gutter-row" xl={10} md={10} sm={24}>
-        <ProjectShowcase
-          projectSrc="https://callie-laravel.herokuapp.com/"
-          imgSrc={LaravelNewsImg}
-          title="Online News with Laravel"
-        />
-      </Col>
-    </Row>
+    <RowContainer>
+      <Category>JavaScript Games</Category>
+      <Row gutter={{ lg: 48, md: 32 }}>
+        <Col className="gutter-row" xl={6} md={8} sm={24}>
+          <ProjectShowcase
+            projectSrc="https://flappy-bird-2020.web.app/"
+            imgSrc={FlappyBirdImg}
+            title="Game Flappy Bird"
+          />
+        </Col>
+        <Col className="gutter-row" xl={6} md={8} sm={24}>
+          <ProjectShowcase
+            projectSrc="https://game2048-2020.web.app/"
+            imgSrc={Game2048Img}
+            title="Game 2048"
+          />
+        </Col>
+        <Col className="gutter-row" xl={6} md={8} sm={24}>
+          <ProjectShowcase
+            projectSrc="https://typingpracticegame.web.app/"
+            imgSrc={TypingGameImg}
+            title="Typing Game"
+          />
+        </Col>
+        <Col className="gutter-row" xl={6} md={8} sm={24}>
+          <ProjectShowcase
+            projectSrc="https://codepen.io/minhtriet2104/project/full/AVbLBP"
+            imgSrc={SnakeGameImg}
+            title="Snake Game"
+          />
+        </Col>
+      </Row>
+    </RowContainer>
+    <RowContainer style={{ marginTop: "3em" }}>
+      <Category>React App</Category>
+      <Row gutter={{ lg: 48, md: 32 }}>
+        <Col className="gutter-row" xl={8} md={8} sm={24}>
+          <ProjectShowcase
+            projectSrc="https://first-firebase-react-deploy.firebaseapp.com/"
+            imgSrc={TodoListImg}
+            title="Todo List"
+          />
+        </Col>
+        <Col className="gutter-row" xl={8} md={8} sm={24}>
+          <ProjectShowcase
+            projectSrc="https://quan-ly-cong-viec-2020.herokuapp.com/"
+            imgSrc={TodoListReduxImg}
+            title="Todo List using Redux"
+          />
+        </Col>
+        <Col className="gutter-row" xl={8} md={8} sm={24}>
+          <ProjectShowcase
+            projectSrc="https://minhtriet2104.github.io/mt-cv/"
+            imgSrc={MyCVImg}
+            title="My CV"
+          />
+        </Col>
+      </Row>
+    </RowContainer>
+    <RowContainer style={{ marginTop: "3em" }}>
+      <Category>PHP & Laravel</Category>
+      <Row gutter={{ lg: 64, md: 48 }}>
+        <Col className="gutter-row" xl={8} md={8} sm={24}>
+          <ProjectShowcase
+            projectSrc="http://callie.epizy.com/"
+            imgSrc={PhpNewsImg}
+            title="Online News with PHP"
+          />
+        </Col>
+        <Col className="gutter-row" xl={10} md={10} sm={24}>
+          <ProjectShowcase
+            projectSrc="https://callie-laravel.herokuapp.com/"
+            imgSrc={LaravelNewsImg}
+            title="Online News with Laravel"
+          />
+        </Col>
+      </Row>
+    </RowContainer>
   </Container>
 );
 
