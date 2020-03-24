@@ -58,7 +58,10 @@ export default () => (
 
     <div style={{ display: "flex", flexDirection: "row" }}>
       <SocialContact>
-        <IconContainer first={true}>
+        <IconContainer
+          first={true}
+          url="https://www.facebook.com/minhtriet.nguyen.1481"
+        >
           <Icon type="facebook" theme="filled" />
         </IconContainer>
       </SocialContact>
@@ -70,19 +73,19 @@ export default () => (
       </SocialContact>
 
       <SocialContact>
-        <IconContainer>
+        <IconContainer url="https://www.instagram.com/hi_am_triet/">
           <Icon type="instagram" theme="filled" />
         </IconContainer>
       </SocialContact>
 
       <SocialContact>
-        <IconContainer>
+        <IconContainer url="https://www.linkedin.com/in/tri%E1%BA%BFt-it-538b28197/">
           <Icon type="linkedin" theme="filled" />
         </IconContainer>
       </SocialContact>
 
       <SocialContact>
-        <IconContainer>
+        <IconContainer url="https://github.com/MinhTriet2104">
           <Icon type="github" theme="filled" />
         </IconContainer>
       </SocialContact>

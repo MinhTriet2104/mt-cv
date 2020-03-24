@@ -18,13 +18,17 @@ const IconContainer = styled.div`
   }
 `;
 
-export default ({ children, first }) => (
+export default ({ children, first, url }) => (
   <IconContainer
     style={{
       marginLeft: first ? 0 : "1rem"
     }}
   >
-    <a href="#" style={{ backgroundColor: "transparent", fontSize: "1.7rem" }}>
+    <a
+      href={url}
+      style={{ backgroundColor: "transparent", fontSize: "1.7rem" }}
+      target="blank"
+    >
       {children}
     </a>
   </IconContainer>
