@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/mt-cv/static/css/main.37d8dc49.chunk.css",
-    "main.js": "/mt-cv/static/js/main.7f1a21ee.chunk.js",
-    "main.js.map": "/mt-cv/static/js/main.7f1a21ee.chunk.js.map",
+    "main.css": "/mt-cv/static/css/main.03adea8a.chunk.css",
+    "main.js": "/mt-cv/static/js/main.70f34520.chunk.js",
+    "main.js.map": "/mt-cv/static/js/main.70f34520.chunk.js.map",
     "runtime-main.js": "/mt-cv/static/js/runtime-main.8a59aedc.js",
     "runtime-main.js.map": "/mt-cv/static/js/runtime-main.8a59aedc.js.map",
     "static/css/2.38900c64.chunk.css": "/mt-cv/static/css/2.38900c64.chunk.css",
-    "static/js/2.f6b03c49.chunk.js": "/mt-cv/static/js/2.f6b03c49.chunk.js",
-    "static/js/2.f6b03c49.chunk.js.map": "/mt-cv/static/js/2.f6b03c49.chunk.js.map",
+    "static/js/2.3330bd2a.chunk.js": "/mt-cv/static/js/2.3330bd2a.chunk.js",
+    "static/js/2.3330bd2a.chunk.js.map": "/mt-cv/static/js/2.3330bd2a.chunk.js.map",
     "index.html": "/mt-cv/index.html",
-    "precache-manifest.d8e5e137bb056920f30feabd1973570f.js": "/mt-cv/precache-manifest.d8e5e137bb056920f30feabd1973570f.js",
+    "precache-manifest.cc6bc25d50aeec7b01e77759cb0c45ca.js": "/mt-cv/precache-manifest.cc6bc25d50aeec7b01e77759cb0c45ca.js",
     "service-worker.js": "/mt-cv/service-worker.js",
     "static/css/2.38900c64.chunk.css.map": "/mt-cv/static/css/2.38900c64.chunk.css.map",
-    "static/css/main.37d8dc49.chunk.css.map": "/mt-cv/static/css/main.37d8dc49.chunk.css.map",
-    "static/js/2.f6b03c49.chunk.js.LICENSE": "/mt-cv/static/js/2.f6b03c49.chunk.js.LICENSE",
+    "static/css/main.03adea8a.chunk.css.map": "/mt-cv/static/css/main.03adea8a.chunk.css.map",
+    "static/js/2.3330bd2a.chunk.js.LICENSE": "/mt-cv/static/js/2.3330bd2a.chunk.js.LICENSE",
     "static/media/FlappyBird.PNG": "/mt-cv/static/media/FlappyBird.eba10107.PNG",
     "static/media/Game2048.PNG": "/mt-cv/static/media/Game2048.1d4be554.PNG",
     "static/media/IMG_9881.JPG": "/mt-cv/static/media/IMG_9881.aaf74bc9.JPG",
     "static/media/LaravelNews.png": "/mt-cv/static/media/LaravelNews.51a6cc31.png",
     "static/media/MyCV.PNG": "/mt-cv/static/media/MyCV.d3080f93.PNG",
     "static/media/PhpNewspaper.png": "/mt-cv/static/media/PhpNewspaper.abb8ed1a.png",
+    "static/media/SchoolLandingPage.png": "/mt-cv/static/media/SchoolLandingPage.5f49d7de.png",
     "static/media/SnakeGame.PNG": "/mt-cv/static/media/SnakeGame.65de0ccc.PNG",
     "static/media/TodoList.PNG": "/mt-cv/static/media/TodoList.008ca033.PNG",
     "static/media/TodoListRedux.png": "/mt-cv/static/media/TodoListRedux.e006cefa.png",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.8a59aedc.js",
     "static/css/2.38900c64.chunk.css",
-    "static/js/2.f6b03c49.chunk.js",
-    "static/css/main.37d8dc49.chunk.css",
-    "static/js/main.7f1a21ee.chunk.js"
+    "static/js/2.3330bd2a.chunk.js",
+    "static/css/main.03adea8a.chunk.css",
+    "static/js/main.70f34520.chunk.js"
   ]
 }
