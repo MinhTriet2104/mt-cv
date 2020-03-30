@@ -13,6 +13,7 @@ import MyCVImg from "../../img/MyCV.PNG";
 import PhpNewsImg from "../../img/PhpNewspaper.png";
 import LaravelNewsImg from "../../img/LaravelNews.png";
 import TodoListReduxImg from "../../img/TodoListRedux.png";
+import SchoolLandingPageImg from "../../img/SchoolLandingPage.png";
 
 const Container = styled.div`
   margin: 3rem 100px 0;
@@ -50,6 +51,18 @@ const Projects = () => (
       <Icon type="code" theme="twoTone" twoToneColor="#577eff" /> My Projects
     </h1>
     <RowContainer>
+      <Category>HTML, CSS, JS</Category>
+      <Row gutter={{ lg: 48, md: 32 }}>
+        <Col className="gutter-row" xl={10} md={10} sm={24}>
+          <ProjectShowcase
+            projectSrc="https://school-landing-page.web.app/"
+            imgSrc={SchoolLandingPageImg}
+            title="School Landing Page"
+          />
+        </Col>
+      </Row>
+    </RowContainer>
+    <RowContainer style={{ marginTop: "3em" }}>
       <Category>JavaScript Games</Category>
       <Row gutter={{ lg: 48, md: 32 }}>
         <Col className="gutter-row" xl={6} md={8} sm={24}>
