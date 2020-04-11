@@ -78,11 +78,11 @@ export default () => (
         </IconContainer>
       </SocialContact>
 
-      <SocialContact>
+      {/* <SocialContact>
         <IconContainer>
           <Icon type="twitter-square" theme="filled" />
         </IconContainer>
-      </SocialContact>
+      </SocialContact> */}
 
       <SocialContact>
         <IconContainer url="https://www.instagram.com/hi_am_triet/">
