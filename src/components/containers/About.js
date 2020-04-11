@@ -11,7 +11,6 @@ const Container = styled.div`
   background: transparent;
   box-shadow: inset -2px -2px 6px #faffff, inset 2px 2px 6px #adbfd5;
   border-radius: 5px;
-  animation: fadeIn 0.5s ease-in;
   padding: 1.5em;
 
   @media (max-width: 780px) {
