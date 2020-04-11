@@ -16,23 +16,35 @@ const GreetingStyle = {
   fontWeight: "bold",
   fontFamily: fontFamily,
   marginBottom: 0,
-  padding: 0
+  padding: 0,
 };
 
 const highlight = {
   color: "#577eff",
   fontWeight: "bold",
-  fontFamily: fontFamily
+  fontFamily: fontFamily,
 };
 
 const Greeting = styled.h1`
   animation: 1s ${tadaAnimation} ease-in;
   animation-delay: 0.4s;
+
+  @media (max-width: 780px) {
+    & {
+      font-size: 2.3em !important;
+    }
+  }
 `;
 
 const Job = styled.h2`
   margin-top: 0;
   animation: 1.5s ${flipInXAnimation} ease-in;
+
+  @media (max-width: 780px) {
+    & {
+      font-size: 1.3em !important;
+    }
+  }
 `;
 
 const SocialContact = styled.div`

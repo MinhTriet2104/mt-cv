@@ -19,6 +19,12 @@ const Container = styled.div`
   margin: 3rem 100px 0;
   min-height: 30rem;
   background: transparent;
+
+  @media (max-width: 780px) {
+    & {
+      margin: 3rem 1.5em;
+    }
+  }
 `;
 
 const Category = styled.h2`
@@ -45,7 +51,7 @@ const Projects = () => (
         fontWeight: "bold",
         color: "#577eff",
         margin: 0,
-        marginBottom: "1rem"
+        marginBottom: "1rem",
       }}
     >
       <Icon type="code" theme="twoTone" twoToneColor="#577eff" /> My Projects

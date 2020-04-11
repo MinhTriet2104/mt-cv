@@ -7,8 +7,18 @@ import "./styles/Card.css";
 const CardStyle = {
   boxShadow: "-2px -2px 6px #faffff, 2px 2px 6px #adbfd5",
   textAlign: "center",
-  border: "none !important"
+  border: "none !important",
 };
+
+const Wrapper = styled.a`
+  display: inline-block;
+
+  // @media (max-width: 780px) {
+  //   & {
+  //     margin-top: 2em;
+  //   }
+  // }
+`;
 
 const Title = styled.a`
   font-size: 1.4rem;
@@ -20,7 +30,7 @@ const Title = styled.a`
 `;
 
 export default ({ projectSrc, imgSrc, title }) => (
-  <a href={projectSrc} target="blank">
+  <Wrapper href={projectSrc} target="blank">
     <Card
       hoverable
       style={CardStyle}
@@ -30,5 +40,5 @@ export default ({ projectSrc, imgSrc, title }) => (
         {title}
       </Title>
     </Card>
-  </a>
+  </Wrapper>
 );
