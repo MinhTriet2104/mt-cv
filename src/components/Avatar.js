@@ -10,15 +10,15 @@ const Avatar = styled.div`
   background-repeat: no-repeat;
   height: calc(30rem + 40px);
   margin: -20px 0;
-  box-shadow: -3px -3px 7px #faffff, 3px 3px 7px #adbfd5;
+  box-shadow: -2px -2px 5px #faffff, 2px 2px 5px #adbfd5;
   border-radius: 5px;
   overflow: hidden;
 
   @media (max-width: 780px) {
     & {
       border-radius: 50%;
-      height: 10rem;
-      width: 10rem;
+      height: 9rem;
+      width: 9rem;
       margin: 0 auto;
       position: absolute;
       top: 50%;

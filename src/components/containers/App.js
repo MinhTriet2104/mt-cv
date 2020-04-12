@@ -21,8 +21,8 @@ const App = () => (
       </Header>
       <Switch>
         <Route exact path="/mt-cv/" component={Home} />
-        <Route exact path="/mt-cv/about" component={About} />
-        <Route exact path="/mt-cv/projects" component={Projects} />
+        <Route path="/mt-cv/about" component={About} />
+        <Route path="/mt-cv/projects" component={Projects} />
       </Switch>
 
       <Footer
@@ -30,7 +30,8 @@ const App = () => (
           textAlign: "center",
           background: "transparent",
           fontSize: "1.2rem",
-          padding: "2rem !important"
+          padding: "2rem !important",
+          lineHeight: "1.3em",
         }}
         className="footer"
       >

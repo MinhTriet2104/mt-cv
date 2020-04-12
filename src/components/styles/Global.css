@@ -77,7 +77,11 @@ body {
 
 @media (max-width: 400px) {
   .chartjs-render-monitor {
-    height: 350px !important;
+    height: 300px !important;
     width: 270px !important;
+  }
+
+  .home-mobile-padding {
+    padding: 0.5em 1.5em !important;
   }
 }

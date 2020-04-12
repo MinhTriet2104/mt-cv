@@ -36,8 +36,8 @@ const About = () => {
         </Texty>
       </h1>
       <Bar
-        height="60"
-        width="190"
+        height={60}
+        width={190}
         data={{
           labels: ["HTML", "CSS", "JavaScript", "PHP", "MongoDB", "MySQL"],
           datasets: [

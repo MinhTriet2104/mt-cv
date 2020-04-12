@@ -17,6 +17,10 @@ const Container = styled.div`
     & {
       margin: 3rem 1.5em;
     }
+
+    & ant-col {
+      padding: 0.5em 2em !important;
+    }
   }
 `;
 
@@ -31,7 +35,8 @@ const Home = () => (
           xl={16}
           md={24}
           sm={24}
-          style={{ background: "transparent", padding: "1rem 3.2rem" }}
+          style={{ background: "transparent", padding: "1em 3.2em" }}
+          className="home-mobile-padding"
         >
           <Introduce />
         </Col>

@@ -31,7 +31,13 @@ const Greeting = styled.h1`
 
   @media (max-width: 780px) {
     & {
-      font-size: 2.3em !important;
+      font-size: 2.3rem !important;
+    }
+  }
+
+  @media (max-width: 400px) {
+    & {
+      font-size: 1.7rem !important;
     }
   }
 `;
@@ -42,7 +48,13 @@ const Job = styled.h2`
 
   @media (max-width: 780px) {
     & {
-      font-size: 1.3em !important;
+      font-size: 1.3rem !important;
+    }
+  }
+
+  @media (max-width: 400px) {
+    & {
+      font-size: 1.1em !important;
     }
   }
 `;
@@ -62,7 +74,7 @@ export default () => (
       I'm a <span style={highlight}>WEB DESIGN & DEVELOPMENT</span>
     </Job>
 
-    <p style={{ marginTop: "0.5rem", fontWeight: "1.2rem" }}>
+    <p style={{ marginTop: "0.5em" }}>
       I can design a website interface, build a complete website manage and
       develop it. If You want to make a website for anything, you come to the
       right place! Let me help you to bring your idea come True.
