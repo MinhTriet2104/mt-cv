@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mt-cv/static/css/main.3309b3b9.chunk.css",
-    "main.js": "/mt-cv/static/js/main.ce2a4b7e.chunk.js",
-    "main.js.map": "/mt-cv/static/js/main.ce2a4b7e.chunk.js.map",
+    "main.css": "/mt-cv/static/css/main.90fc9423.chunk.css",
+    "main.js": "/mt-cv/static/js/main.74db5554.chunk.js",
+    "main.js.map": "/mt-cv/static/js/main.74db5554.chunk.js.map",
     "runtime-main.js": "/mt-cv/static/js/runtime-main.8a59aedc.js",
     "runtime-main.js.map": "/mt-cv/static/js/runtime-main.8a59aedc.js.map",
     "static/css/2.38900c64.chunk.css": "/mt-cv/static/css/2.38900c64.chunk.css",
     "static/js/2.0ccfb7b6.chunk.js": "/mt-cv/static/js/2.0ccfb7b6.chunk.js",
     "static/js/2.0ccfb7b6.chunk.js.map": "/mt-cv/static/js/2.0ccfb7b6.chunk.js.map",
     "index.html": "/mt-cv/index.html",
-    "precache-manifest.d0452a8a1023cae8309259934fa62d13.js": "/mt-cv/precache-manifest.d0452a8a1023cae8309259934fa62d13.js",
+    "precache-manifest.4dae5875310fe2e88f4e9c9ff7cfb766.js": "/mt-cv/precache-manifest.4dae5875310fe2e88f4e9c9ff7cfb766.js",
     "service-worker.js": "/mt-cv/service-worker.js",
     "static/css/2.38900c64.chunk.css.map": "/mt-cv/static/css/2.38900c64.chunk.css.map",
-    "static/css/main.3309b3b9.chunk.css.map": "/mt-cv/static/css/main.3309b3b9.chunk.css.map",
+    "static/css/main.90fc9423.chunk.css.map": "/mt-cv/static/css/main.90fc9423.chunk.css.map",
     "static/js/2.0ccfb7b6.chunk.js.LICENSE": "/mt-cv/static/js/2.0ccfb7b6.chunk.js.LICENSE",
     "static/media/FlappyBird.PNG": "/mt-cv/static/media/FlappyBird.eba10107.PNG",
     "static/media/Game2048.PNG": "/mt-cv/static/media/Game2048.1d4be554.PNG",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.8a59aedc.js",
     "static/css/2.38900c64.chunk.css",
     "static/js/2.0ccfb7b6.chunk.js",
-    "static/css/main.3309b3b9.chunk.css",
-    "static/js/main.ce2a4b7e.chunk.js"
+    "static/css/main.90fc9423.chunk.css",
+    "static/js/main.74db5554.chunk.js"
   ]
 }
